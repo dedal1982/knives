@@ -79,7 +79,7 @@ button {
   height: 100px;
   margin-top: 20px;
   border-radius: 50%;
-  background: rgb(255 1 92) 50%;
+  background: rgb(255 1 92);
 }
 .header__logo img {
   width: 100%;
