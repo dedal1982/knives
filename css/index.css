@@ -39,18 +39,54 @@ button {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
 .header {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(73, 5, 29, 1) 0%,
+    rgb(255 1 92) 50%,
+    rgba(83, 8, 46, 1) 100%
+  );
+}
+.header__wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.header__wrapper span {
+  font-size: 20px;
+  color: #ffffff;
+}
+.header__wrapper a {
+  font-size: 20px;
+  color: #ffffff;
+}
+.header__logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.header__logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
 }
 .content {
   flex: 1 0 auto;
 }
 .footer {
   flex: 0 0 auto;
-}
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
+  height: 100px;
+  background: #000000;
 }
